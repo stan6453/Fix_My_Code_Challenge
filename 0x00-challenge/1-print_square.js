@@ -17,7 +17,6 @@ if (process.argv.length <= 2) {
 size = parseInt(process.argv[2])
 
 if(size === 0){
-    process.stdout.write("\n");
     process.exit(1);
 
 }
