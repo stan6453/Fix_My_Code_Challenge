@@ -8,8 +8,6 @@ class Square():
     """
     square class (blueprint for square objects).
     """
-    width = 0
-    height = 0
 
     def __init__(self, *args, **kwargs):
         """
