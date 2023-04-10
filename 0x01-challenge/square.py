@@ -14,11 +14,11 @@ class Square():
         initialize the square.
         """
         if args:
-            self.width = args[0]
-            self.height = args[1]
-        else:
             for key, value in kwargs.items():
                 setattr(self, key, value)
+        else:
+            self.width = args[0]
+            self.height = args[1]
 
     def area_of_my_square(self):
         """
