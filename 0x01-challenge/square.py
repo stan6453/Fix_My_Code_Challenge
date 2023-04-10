@@ -40,7 +40,7 @@ class Square():
 
 
 if __name__ == "__main__":
-    
+    """is something supposed to be here."""
     square = Square(width=12, height=9)
     print(square)
     print(square.area_of_my_square())
