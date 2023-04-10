@@ -13,7 +13,7 @@ class Square():
         """
         initialize the square.
         """
-        if args:
+        if kwargs:
             for key, value in kwargs.items():
                 setattr(self, key, value)
         else:
