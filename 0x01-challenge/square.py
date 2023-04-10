@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Square module."""
 
+
 class square():
     """
     square class (blueprint for square objects)
