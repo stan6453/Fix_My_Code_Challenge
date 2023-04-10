@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Square module.
+Square module. contains square objects and methods
 """
 
 
